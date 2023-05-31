@@ -1,0 +1,33 @@
+
+// Statics Test file
+// Andrew Davison, April 2015, ad@fivedots.coe.psu.ac.th
+
+// Possible formats:
+//   b block-name x y width length height rotation texture-fnm [roof-texture-fnm ]
+//   c cylinder-name x y radius height rotation texture-fnm
+//   m model-fnm model-name x y scale rotation
+// and blank lines and comment lines.
+
+
+// blocks
+b b1   2 3   5 6 7  12.5 foo.gif
+
+b b2  4 6   7 8 9   0 foo2.gif roof.jpg
+
+
+// cylinders
+c c1   1.2 5   6 7   0 cyl.gif
+c c2   3  4.6   4 6       7      cyl2.gif
+
+
+
+// models
+m house.sk m1   3 4    1  0
+
+
+m car.dk  m2   2  4   2 90
+
+
+
+// another cylinder
+c c3   7.2 2   9 23.5  0 cyl.gif
